@@ -33,7 +33,7 @@ export default class App extends React.Component {
   }
 
   render() {
-    return 
+    return (
     <Fragment>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">Stock Simulation Web</NavbarBrand>
@@ -84,5 +84,6 @@ export default class App extends React.Component {
         </Collapse>
       </Navbar>
     </Fragment>
+    )
   }
 }
